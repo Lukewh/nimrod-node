@@ -30,7 +30,5 @@
   },
   "scripts": {
     "test": "nodeunit ./test/all.js"
-  },
-  "dependencies": {},
-  "optionalDependencies": {}
+  }
 }
