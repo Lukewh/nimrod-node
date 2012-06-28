@@ -1,34 +1,36 @@
 {
-	"name": "nimrod-node",
-	"version": "0.1.0",
-	"description": "nimrod-node is an implementation of a Nimrod (Not Invasive MetRics, Oh Dear!) client for NodeJS.",
-	"homepage": "http://github.com/lukewh/nimrod-node",
-	"author": "Luke Wesley-Holley <lukewh@lukewh.com>",
-	"keywords": [
-		"nimrod",
-		"logging",
-		"metrics"
-	],
-	"main": "./lib/nimrod-node.js",
-	"engines": {
-		"node": "*"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/lukewh/nimrod-node.git"
-	},
-	"bugs": {
-		"url": "https://github.com/lukewh/nimrod-node/issues"
-	},
-	"licenses": [
-		{
-			"type": "MIT"
-		}
-	],
-	"devDependencies": {
-		"nodeunit": "latest"
-	},
-	"scripts": {
-		"test": "nodeunit ./test/nimrod-node"
-	}
+  "name": "nimrod-node",
+  "version": "0.1.0",
+  "description": "nimrod-node is an implementation of a Nimrod (Not Invasive MetRics, Oh Dear!) client for NodeJS.",
+  "homepage": "http://github.com/lukewh/nimrod-node",
+  "author": "Luke Wesley-Holley <luke@lukewh.com> (http://lukewh.com)",
+  "keywords": [
+    "nimrod",
+    "logging",
+    "metrics"
+  ],
+  "main": "./lib/nimrod-node.js",
+  "engines": {
+    "node": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lukewh/nimrod-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lukewh/nimrod-node/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "devDependencies": {
+    "nodeunit": "latest"
+  },
+  "scripts": {
+    "test": "nodeunit ./test/all.js"
+  },
+  "dependencies": {},
+  "optionalDependencies": {}
 }
