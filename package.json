@@ -1,6 +1,6 @@
 {
   "name": "nimrod-node",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "nimrod-node is an implementation of a Nimrod (Not Invasive MetRics, Oh Dear!) client for NodeJS.",
   "homepage": "http://github.com/lukewh/nimrod-node",
   "author": "Luke Wesley-Holley <luke@lukewh.com> (http://lukewh.com)",
