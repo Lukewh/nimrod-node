@@ -1,6 +1,67 @@
 # Nimrod-Node
 
 The Nimrod-Node project provides an easy way to print Nimrod logs from Nodejs.
+For more information about Nimrod see [http://sbtourist.github.com/nimrod/]
+
+# Installation
+  ``npm install nimrod-node``
+  
+# Include
+  ``var Nimrod = require('nimrod-node'),
+    n = new Nimrod('/path/to/log/file.log');``
+    
+# Methods
+## n.logAlert(name, value, tags)
+
+A wrapper for n.log().
+
+Produces:
+
+  ``[nimrod][123456789][alert][name][value][tags]``
+
+## n.logCounter(name, value, tags)
+
+A wrapper for n.log().
+
+Produces:
+
+  ``[nimrod][123456789][counter][name][value][tags]``
+
+## n.logGauge(name, value, tags)
+A wrapper for n.log().
+Produces:
+
+  ``[nimrod][123456789][gauge][name][value][tags]``
+
+## n.startTimer(name, tags)
+
+A wrapper for n.log().
+
+Produces:
+
+  ``[nimrod][123456789][timer][name][start][tags]``
+
+## n.stopTimer(name)
+
+A wrapper for n.log().
+
+Produces:
+
+  ``[nimrod][123456789][timer][name][stop]``
+
+## n.end()
+
+Stops all timers that haven't been manually stopped.
+
+Produces:
+
+  ``[nimrod][123456789][timer][name][stop]``
+
+## n.log(metric, name, value, tags)
+
+Produces:
+
+  ``[nimrod][123456789][metric][name][value][tags]``
 
 # Feedback
 
